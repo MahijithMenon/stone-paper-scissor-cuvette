@@ -213,6 +213,10 @@ letter-spacing: 3.9px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: absolute;
+    right: 70%;
+    font-weight: 600;
+
   }
   
   .game-heading {
@@ -229,9 +233,11 @@ letter-spacing: 3.9px;
  
   .scores {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 50%; 
+    position: absolute;
+    right: 180px;
+  justify-content: space-around;
+  align-items: flex-start; 
+  width: 40%;
   }
   .selectedPiece{
     color: #FFF;
