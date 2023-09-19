@@ -297,6 +297,10 @@ text-align: center;
   .results__container{
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    top: 70%;
+    left: 47%;
+    transform: translate(-50%, -50%);
   }
 
   .results__item{
